@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Filtr8-EzMagazine</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Add a beautiful business magazine to engage and convert your visitors with smart content recommendations</summary>
+    <description>Captivate your audience with a stunning magazine on your web site. Effortlessly discover and publish smart, engaging stories and news to make your visitors stay longer, come back more often, and convert to subscribers and customers.</description>
+    <notes>First release</notes>
+    <authors><author><name>Filtr8</name><user>filtr8</user><email>contact@filtr8.com</email></author></authors>
+    <date>2015-05-27</date>
+    <time>13:24:28</time>
+    <contents><target name="magecommunity"><dir name="Filtr8"><dir name="EzMagazine"><dir name="Block"><file name="Index.php" hash="41ac0ed47b3f00f7e576140f30973c40"/></dir><dir name="Helper"><file name="Data.php" hash="3f7f62d55204ac74d7eeac2fda46734f"/></dir><dir name="controllers"><file name="IndexController.php" hash="e88c5765e49a5a42fe3fc89d9050e548"/></dir><dir name="etc"><file name="adminhtml.xml" hash="18a3c8897ad73fe703efc629ddcb861d"/><file name="config.xml" hash="ec792d57b81033f9920d29f7506f834d"/><file name="system.xml" hash="deb61b223c2584ee1035cb1c4162aaab"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Filtr8_EzMagazine.xml" hash="9c03c46f763ca9a286fb539bc40989e0"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="ezmagazine.xml" hash="e0126236959531bb0fed88ba030e9dd8"/></dir><dir name="template"><dir name="ezmagazine"><file name="index.phtml" hash="6344201064698f5d52e33d2633d139c2"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<config>
+	  <tabs>
+		<ezmagazine translate="label" module="ezmagazine">
+            <label>EZ MAGAZINE</label>
+            <sort_order>1000</sort_order>
+        </ezmagazine>
+	  </tabs>
+	  <sections>
+		<ezmagazineopts  translate="label" module="ezmagazine">
+		<label>Options</label>
+		<tab>ezmagazine</tab>
+		<frontend_type>text</frontend_type>
+		<sort_order>0</sort_order>
+		<show_in_default>1</show_in_default>
+		<show_in_website>0</show_in_website>
+		<show_in_store>0</show_in_store>
+					<groups>
+				      <ezmagazinegrp translate="label">
+					  <label>Ez Magazine Settings</label>
+					  <frontend_type>text</frontend_type>
+					  <sort_order>0</sort_order>
+					  <show_in_default>1</show_in_default>
+					  <show_in_website>0</show_in_website>
+					  <show_in_store>0</show_in_store>
+                        <comment>
+                            <![CDATA[
+                            <p>Please get the <b>embed link</b> for your magazine from your <a href="http://filtr8.com/discover" target="_blank">Filtr8 Newsroom</a>.
+                                   <br/>
+                                   Don't have Filtr8 Newsroom? <a href="https://filtr8.com/join" target="_blank">Sign up</a> for free now!
+                            </p>
+                            <hr style="margin: 10px 0px;">
+                            <p>The magazine page will be available at <b>http://&lt;your_domain&gt;/ezmagazine</b>.</p>
+                            <hr style="margin: 10px 0px;">
+                            <p>Got questions? See our <a href="http://filtr8.uservoice.com/knowledgebase/articles/605733" target="_blank">quick guide</a> for more information
+                                   or <a href="mailto:contact@filtr8.com?Subject=I%20got%20a%20question (Magento)">drop us an email</a> anytime!
+                            </p>
+                            <hr style="margin: 10px 0px;">
+                            <br/>
+                            ]]>
+                        </comment>
+                      
+				       <fields>
+                       
+                          <magazinecode translate="label">
+                            <label>Magazine embed link</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <comment>
+                                <![CDATA[Get your own magazine embed link at your Filtr8 account. Click <a href="http://filtr8.com/discover" target="_blank">here</a> to sign in to your Filtr8 Newsroom]]>
+                            </comment>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                          </magazinecode>
+                          
+                          <magazinewidth translate="label">
+                            <label>Magazine width (screen %)</label>
+							<frontend_type>text</frontend_type>
+                            <validate>validate-number</validate>
+                            <sort_order>1</sort_order>
+                            <comment>
+                                <![CDATA[Set the width of the magazine area. This will also control the number of columns in your magazine.]]>
+                            </comment>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                          </magazinewidth>
+                          
+                          <magazineheight translate="label">
+                            <label>Magazine height (pixels)</label>
+							<frontend_type>text</frontend_type>
+                            <validate>validate-number</validate>
+                            <sort_order>2</sort_order>
+                            <comment>
+                                <![CDATA[Set the height of the magazine area. This controls how many articles are visible until users need to scroll.]]>
+                            </comment>                            
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                          </magazineheight>
+
+                          <marginleft translate="label">
+                            <label>Margin to left (pixels)</label>
+							<frontend_type>text</frontend_type>
+                            <validate>validate-number</validate>
+                            <sort_order>3</sort_order>
+                            <comment>
+                                <![CDATA[Position the magazine area if it takes less than 100% of the screen]]>
+                            </comment>                            
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                          </marginleft>
+                          
+					   </fields>
+					   </ezmagazinegrp>
+					</groups>
+		</ezmagazineopts>
+	  </sections>
+</config>

@@ -1,0 +1,18 @@
+<?php
+    $token  = Mage::getStoreConfig('ezmagazineopts/ezmagazinegrp/magazinecode');
+    $width  = Mage::getStoreConfig('ezmagazineopts/ezmagazinegrp/magazinewidth');
+    $height = Mage::getStoreConfig('ezmagazineopts/ezmagazinegrp/magazineheight');
+    $mleft   = Mage::getStoreConfig('ezmagazineopts/ezmagazinegrp/marginleft');
+    
+    if ($width == "")
+        $width = "100";
+        
+    if ($height == "")
+        $height = "800";
+
+    if ($mleft == "")
+        $mleft = "0";
+        
+?>
+
+<iframe src='<?php echo $token;?>' scrolling='no' style='width: <?php echo $width;?>%; height: <?php echo $height;?>px; margin-left: <?php echo $mleft;?>px; overflow: hidden; border: 0;' seamless></iframe>

@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Filtr8-EzMagazine",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Add a beautiful business magazine to engage and convert your visitors with smart content recommendations",
+    "authors": [
+    {
+        "name": "Filtr8",
+        "email": "contact@filtr8.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

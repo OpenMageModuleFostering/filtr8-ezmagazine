@@ -1,0 +1,12 @@
+<?xml version="1.0"?>   
+<layout version="1.0.0">   
+  <ezmagazine_index_index>   
+    <reference name="root">   
+      <action method="setTemplate"><template>page/1column.phtml</template></action>   
+    </reference>   
+    <reference name="content">   
+      <block type="ezmagazine/index" name="ezmagazine_index" template="ezmagazine/index.phtml"/>   
+    </reference>   
+  </ezmagazine_index_index>   
+</layout>   
+	
